@@ -1,0 +1,241 @@
+/*CSS general de elementos*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #00a9e4;
+    color: black;
+    font: 400 18px 'Varela Round', sans-serif;
+}
+h2{
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+nav{
+    position: fixed;
+    color: #FE421E;
+    width: 100%;
+    height: 70px;
+    background-color: #fbdf11;
+    border-bottom: 3px solid white;
+    text-align: center;
+}nav ul{
+    display: inline-block;
+}
+nav ul li{
+    padding: 20px;
+}
+nav img{
+    float: left;
+    width: 125px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+nav a{
+    font-size: 30px;
+    font-weight: 800;
+}
+section{
+    padding: 10px 100px 10px 100px;
+}
+p{
+    text-align:justify;
+}
+i{
+    font-size: 24px;
+}
+i:hover{
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+a:any-link{
+    color:#FE421E;
+}
+a:-webkit-any-link{
+    color: #FE421E;
+}
+a:-moz-any-link{
+    color: #FE421E;
+}
+a:hover{
+    color: white;
+}
+ul{ 
+    list-style: none;
+}
+li{
+    float:left;
+    margin-right: 5px;
+}
+button{
+    border-radius: 10px;
+}
+footer{
+    height: 55px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #fbdf11;
+}
+footer ul{
+    display: inline-block;
+}
+footer ul li i{
+    font-size: 50px;
+    width: 300px;
+}
+/*CSS de ID y Clase*/
+/*Presentación*/
+#Presentación{
+    padding-top: 105px;
+    text-align: center;
+}
+#Presentación h2{
+    color: #FE421E;
+    font-size: 60px;
+}
+#Presentación img {
+    border-radius: 20px;
+    width: 350px;
+}
+#Presentación video{
+    border-radius: 20px;
+    width: 500px;
+    height: 240px;
+    margin-top: 100px;
+}
+#Presentación2{
+    display: flex;
+    padding-top: 20px;
+}
+#Presentación2 div{
+    padding: 30px;
+}
+#Presentación2 p{
+    padding-top: 90px;
+    font-size: 30px;
+}
+/*Oferta*/
+#Oferta{
+    background-color: white;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+#Oferta h2{
+    color: #FE421E;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+#Oferta2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 200px 200px;
+}
+#Oferta h3{
+    font-weight: 1000;
+    font-size: 100px;
+    color: #fbdf11;
+    text-align: center;
+}
+#Oferta img{
+    border-radius: 20px;
+    width: 350px;
+}
+#TarjetadePrecio{
+    padding-top: 50px;
+    background-color: #00a9e4;
+    width: 350px;
+    height: 100px;
+}
+/*Dónde Comprar*/
+.DondeComprar{
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-gap: 10px;
+    justify-content: space-between;
+    align-content: space-around;
+}
+#DondeComprar h2{
+    color: #FE421E;
+    font-size: 60px;
+}
+.lugar{
+    background-color: white;
+    border-radius: 15px;
+    color: #00a9e4;
+    padding: 10px 15px;
+    text-align: center;
+}
+.lugar h3{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.lugar p{
+    margin-bottom: 20px;
+}
+#DondeComprar h2{
+    padding-top: 40px;
+    text-align: center;
+}
+.DondeComprar button{
+    background-color: #fbdf11;
+    font-weight: 600;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.DondeComprar button:hover{
+    color:#00a9e4
+}
+#DondeComprar2 p{
+    text-align: center;
+}
+/*Atención al Cliente*/
+#AtencionCliente{
+    border-top: 5px solid #fbdf11;
+    margin-top: 30px;
+}
+.itemform{
+    display: grid;
+    grid-template-columns: 100px 300px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.itemform label{
+    font-weight: 700px;
+    color: #fbdf11;
+}
+.itemform input,.itemform textarea {
+    border-radius: 5px;
+    border: 1px solid white;
+}
+input[type=submit]{
+    background-color: #fbdf11;
+    border: 1px solid #FE421E;
+    color: #FE421E;
+    padding: 10px;
+    grid-column: 2/3;
+    justify-self: end;
+}
+#AtencionCliente h2{
+    color: #FE421E;
+    font-size: 60px;
+    text-align: center;
+}
